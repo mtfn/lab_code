@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/saimai/ros2_ws2/install/marvelmind_ros2_msgs/include/**",
+        "/home/saimai/ros2WorkSpace/install/marvelmind_ros2_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/saimai/ros2_humble/ros2-linux/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

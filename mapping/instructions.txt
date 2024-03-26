@@ -1,0 +1,14 @@
+When running on a new device, change the path to the .pcl files with [fpoints, lscale, X_ver, Y_ver] in all the all the nodes.
+   
+--------------------------------------------------------------------------------
+Terminal lines for running the nodes:
+
+Multi:
+ros2 run mapping fullMultiMapping --ros-args -r __ns:=/[previous robot]/[self robot] -p flp:=[fpl file name]
+
+Single:
+ros2 run mapping Mapping --ros-args -r __ns:=/[robot name]
+
+OR
+
+same as multi but set both name to the same robot. 

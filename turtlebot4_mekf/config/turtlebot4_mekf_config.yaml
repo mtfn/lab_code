@@ -1,0 +1,18 @@
+turtlebot4_mekf:
+  ros__parameters:
+    robot_type: "turtlebot4"
+    robot_name: "robotName"
+    beacon_type: "marvelmind"  # marvelmind or pozyx
+    init_quat: [0, 0, 0, 1] # x,y,z,w
+    init_quat_cov: [0.1,0.1,0.1]
+    init_vel: [0, 0, 0]
+    init_vel_cov: [0.1,0.1,0.1]
+    init_pos: [0, 0, 0]
+    init_pos_cov:  [0.1,0.1,0.1]
+    gyro_cov:  [0.1,0.1,0.1]
+    gyro_bias_cov:  [0.1,0.1,0.1]
+    accel_cov:  [0.1,0.1,0.1]
+    accel_bias_cov:  [0.1,0.1,0.1]
+    uwb_obs_cov:  [0.1,0.1,0.1]
+    mahalanobis_dist: 3.
+    acc_gravity: [0., 0., 9.81] # 1 or 9.81 depending on accelerometer
